@@ -1,0 +1,25 @@
+.contenedor{
+
+    border: 1px solid black;
+    border-radius: 20px 10px;
+    background-image: url(images/main\ background.png);
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    background-color: bisque;
+}
+ 
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+#verificarbtn{
+    background-color: rgb(71, 159, 231);
+}
+#crearTablas{
+    background-color: rgb(71, 159, 231);
+}

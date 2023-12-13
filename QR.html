@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Código QR</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="QR.CSS" />
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" 
+              integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA=="
+                crossorigin="anonymous" 
+            referrerpolicy="no-referrer"></script>
+		<script defer src="QR.JS"></script>
+	</head>
+	<body>
+        <nav>
+            <a href="paginafit.html">Volver</a>
+        </nav>
+		<div class="contenedor">
+			<form action="" id="formulario" class="formulario">
+				<input type="text" id="link" placeholder="https://pagesweb.github.io/p-ginafit" />
+				<button class="btn">Generar QR</button>
+			</form>
+
+			<div id="contenedorQR" class="contenedorQR"></div>
+		</div>
+	</body>
+</html>
+<!--https://pagesweb.github.io/p-ginafit-->
